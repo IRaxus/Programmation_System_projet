@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QWidget" name="widget" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>606</width>
+       <height>459</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget{
+background-color:qlineargradient(spread:pad, x1:0.383892, y1:0.568, x2:1, y2:0.017, stop:0 rgba(229, 33, 101, 255), stop:1 rgba(255, 255, 255, 255));}
+</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <property name="topMargin">
+       <number>2</number>
+      </property>
+      <property name="bottomMargin">
+       <number>2</number>
+      </property>
+      <item row="2" column="1">
+       <widget class="QFrame" name="Second_Frame">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(229, 33, 101);
+border-color: rgb(0, 0, 0);
+border-radius: 20px 20px 20px 20px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QPushButton" name="fork_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>fork</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pipe_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>pipe</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="twopipes_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>2pipes</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="0" column="0" colspan="4">
+       <widget class="QLabel" name="title_label">
+        <property name="styleSheet">
+         <string notr="true">font: 700 20pt &quot;Quicksand&quot;;
+color:rgb(13, 17, 55);</string>
+        </property>
+        <property name="text">
+         <string>Programmation système Virtual LAB</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QFrame" name="Fourth_Frame">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(229, 33, 101);
+border-color: rgb(0, 0, 0);
+border-radius: 20px 20px 20px 20px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QPushButton" name="fileLenght_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>File Lenght</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QFrame" name="frame">
+           <property name="styleSheet">
+            <string notr="true">border-color: rgb(229, 33, 101);
+background-color: rgb(185, 109, 152);</string>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::StyledPanel</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Raised</enum>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <property name="leftMargin">
+             <number>9</number>
+            </property>
+            <item>
+             <widget class="QPushButton" name="fgets_btn">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+              </property>
+              <property name="text">
+               <string>Fgets</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="fputc_btn">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+              </property>
+              <property name="text">
+               <string>Fputc</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="fputs_btn">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+              </property>
+              <property name="text">
+               <string>Fputs</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QPushButton" name="fgetc_btn">
+              <property name="styleSheet">
+               <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+              </property>
+              <property name="text">
+               <string>Fgetc</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QFrame" name="First_Frame">
+        <property name="styleSheet">
+         <string notr="true">border-color: rgb(0, 0, 0);
+background-color: rgb(229, 33, 101);
+border-radius: 20px 20px 20px 20px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="execlp_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>execlp</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="execv_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>execv</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="execvp_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>execvp</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QFrame" name="Third_Frame">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(229, 33, 101);
+border-color: rgb(0, 0, 0);
+border-radius: 20px 20px 20px 20px;</string>
+        </property>
+        <property name="frameShape">
+         <enum>QFrame::StyledPanel</enum>
+        </property>
+        <property name="frameShadow">
+         <enum>QFrame::Raised</enum>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QPushButton" name="fseek_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>Fseek</string>
+           </property>
+           <property name="autoDefault">
+            <bool>true</bool>
+           </property>
+           <property name="default">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="fseekEnd_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>Fseek_end</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ftell_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>Ftell</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="rewind_btn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton {
+    color: rgb(0, 0, 0);
+    border: 2px solid #555;
+    border-radius: 20px;
+    border-style: outset;
+	background: qlineargradient(spread:pad, x1:0, y1:0.466, x2:1, y2:1, stop:0 rgba(97, 53, 131, 255), stop:1 rgba(255, 255, 255, 255));
+    padding: 5px;
+    }
+
+QPushButton:hover {
+    background: qlineargradient(spread:pad, x1:0.192, y1:0.232409, x2:1, y2:1, stop:0 rgba(13, 17, 55, 255), stop:1 rgba(255, 255, 255, 255));
+    }
+
+QPushButton:pressed {
+    border-style: inset;
+    background: qradialgradient(
+        cx: 0.4, cy: -0.1, fx: 0.4, fy: -0.1,
+        radius: 1.35, stop: 0 #fff, stop: 1 #ddd
+        );
+    }
+</string>
+           </property>
+           <property name="text">
+            <string>Rewind</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="urchoice_lable">
+        <property name="styleSheet">
+         <string notr="true">font: 700 13pt &quot;Quicksand&quot;;
+color: rgb(13, 17, 55);</string>
+        </property>
+        <property name="text">
+         <string>fais ton choix</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0" rowspan="4" colspan="4">
+       <widget class="QLabel" name="terminal_label">
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius:10px 10px 10px 10px;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
